@@ -23,12 +23,36 @@ A minimalist Flappy Bird-style browser game implemented with React + TypeScript 
 
 Requirements: Node.js 18+ (Node 20 recommended) and npm
 
+### Quick start
+
 ```bash
+# 1) Clone the repository
+git clone <your-fork-or-repo-url>
+cd <repo-directory>
+
+# 2) Install dependencies
 npm install
+
+# 3) Start the dev server
 npm run dev
 ```
 
 Open http://localhost:5173 to play locally. Click/tap or press Space/Up/W to flap.
+
+### Optional: use nvm to select Node version
+
+```bash
+# If you use nvm (Node Version Manager)
+nvm install 20
+nvm use 20
+```
+
+### Tip: choose a different port
+
+```bash
+# If port 5173 is in use
+npm run dev -- --port 5174
+```
 
 ### Build
 
